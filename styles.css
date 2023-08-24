@@ -1,5 +1,32 @@
 /* styles.css */
 
+* {
+    margin: 10px;
+}
+
+h1 {
+    border: 4px solid red;
+    padding: 5px;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    border: 4px solid red;
+    padding: 10px;
+    border-radius: 2px;
+    background-color: black;
+    box-sizing: border-box;
+}
+
+a {
+    font-family: "Helvetica", "Times New Roman" sans-serif;
+    color: orangered;
+    background-color: black;
+    font-size: 28px;
+}
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: rgb(201, 199, 82);
@@ -12,9 +39,5 @@ body {
     background-color: rgb(0, 0, 0);
 }
 
-.link {
-    font-size: 28px;
-    font-family: "Helvetica", "Times New Roman" sans-serif;
-    background-color: white;
-}
+
 
